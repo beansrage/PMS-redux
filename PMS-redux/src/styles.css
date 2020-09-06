@@ -1,1 +1,84 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.min.css"; 
+
+div.card-header {
+ font-size: large;
+
+}
+
+div.card {
+  margin-top: 10px;
+  
+}
+
+.table {
+  margin-top: 10px;
+  color: aliceblue;
+}
+
+html, body {
+  background-color: black;
+  background-image: url(/src/assets/background.jpg);
+  background-position: center;
+  
+  
+}
+
+  
+
+
+.card {
+  background-color: rgba(0, 0, 0, 0.57);
+  color: rgb(255, 255, 255);
+}
+
+.card-header {
+  background-color: rgba(21, 21, 21, 0.68) ;
+}
+
+.nav-link {
+  color: rgb(149, 149, 149);
+  /* color of Home, Productlist, Contact */
+}
+
+.nav-link:hover {
+  /* hover over color  */
+  color: rgb(211, 146, 6);
+  
+}
+
+nav {
+  /* background color of nav */
+  background-color: rgba(255, 255, 0, 0.123);
+}
+
+.navbar-brand {
+  color: rgb(211, 146, 6);
+}
+
+.btn-primary{
+  border: 0px;
+  background-color: rgb(255, 123, 0);
+  
+}
+
+.btn-primary:hover {
+  color: rgb(90, 18, 18);
+  background-color: rgba(255, 123, 0, 0.787);
+  
+  
+}
+
+.btn :focus{
+  background-color: teal;
+}
+
+a {
+  
+  color: yellow;
+}
+
+a:hover{
+  color: blanchedalmond;
+}
