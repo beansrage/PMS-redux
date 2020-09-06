@@ -1,27 +1,16 @@
-<!-- <div class="card">
-  <div class="card-header">
-   
-  </div>
-  <div class="card-body">
-    <div class="container-fluid">
-      <div class="text-center">
-        <img src="assets/logo.png"
-             class="img-responsive center-block"
-             style="max-height:300px;padding-bottom:50px" />
-      </div>
-
-      <div class="text-center">Developed by:</div>
-      <div class="text-center">
-        <h3>Bob</h3>
-      </div>
-
-      <div class="text-center">@beansrage</div>
-      <div class="text-center">
-        
-      </div>
-    </div>
-  </div>
-</div> -->
+<nav class ='navbar navbar-expand '>
+  <a class='navbar-brand'>P.M.S</a>
+  <ul class='nav nav-pills'>
+    <li><a class='nav-link'[routerLink]="['/welcome']">Home</a></li>
+    <li><a class='nav-link'[routerLink]="['/about']">About Us</a></li>
+    <li><a class='nav-link'[routerLink]="['products']">Product List</a></li>
+    <li><a class='nav-link'[routerLink]="['/contact']">Contact</a></li>
+  </ul>
+</nav>
+<div class='container'>
+  <router-outlet></router-outlet>
+</div>
 
 
-<router-outlet></router-outlet>
+
+<!-- <router-outlet></router-outlet> -->

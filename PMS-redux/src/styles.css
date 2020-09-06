@@ -19,10 +19,8 @@ div.card {
 
 html, body {
   background-color: black;
-  background-image: url(/src/assets/background.jpg);
+  background-image: url(src/assets/background.jpg);
   background-position: center;
-  
-  
 }
 
   
