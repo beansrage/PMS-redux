@@ -2,14 +2,15 @@ package com.example.PMSreduxdatabase.controller;
 
 import com.example.PMSreduxdatabase.model.Product;
 
-import com.example.PMSreduxdatabase.repository.ProductRepository;
 import com.example.PMSreduxdatabase.service.ProductService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
+
+@CrossOrigin
 @RestController
-@RequestMapping("/product")
+@RequestMapping("/products")
 public class ProductController {
 
     @Autowired
@@ -27,7 +28,10 @@ public class ProductController {
         return productService.createProduct(product);
     }
 
-    @DeleteMapping
-    public HttpStatus
-
+    @DeleteMapping("/{id}")
+    public HttpStatus deleteProduct(@PathVariable Long id) {
+//        System.out.println(id);
+        return productService.deleteProduct(id);
+    }
+//
 }

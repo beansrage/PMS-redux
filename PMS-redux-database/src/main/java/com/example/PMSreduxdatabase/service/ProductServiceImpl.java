@@ -3,6 +3,7 @@ package com.example.PMSreduxdatabase.service;
 import com.example.PMSreduxdatabase.model.Product;
 import com.example.PMSreduxdatabase.repository.ProductRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Service;
 
 @Service
@@ -22,5 +23,11 @@ public class ProductServiceImpl implements ProductService{
     @Override
     public Product createProduct(Product product) {
         return productRepository.save(product);
+    }
+
+    @Override
+    public HttpStatus deleteProduct(Long id) {
+        productRepository.deleteById(id);
+        return HttpStatus.OK;
     }
 }
