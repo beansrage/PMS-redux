@@ -1,0 +1,100 @@
+[
+  {
+    "productId": 1,
+    "productName": "Tele-coms",
+    "productCode": "TC-1",
+    "releaseDate": "7/14/2021",
+    "description": "Celluar device used to communicate with various 'bots' ",
+    "price": 194.62,
+    "starRating": 3.2,
+    "imageUrl": "assets/images/telecom.png"
+  },
+  {
+    "productId": 2,
+    "productName": "Software Upgrade",
+    "productCode": "SFG-0002",
+    "releaseDate": "3/18/2019",
+    "description": "Various patchs and upgrades...coming soon",
+    "price": 69.75,
+    "starRating": 4.2,
+    "imageUrl": "assets/images/softwareupgrade.png"
+  },
+  {
+    "productId": 5,
+    "productName": "Tool kit",
+    "productCode": "HTS-0010",
+    "releaseDate": "5/28/2019",
+    "description": "Comes with every tool you will need!",
+    "price": 100,
+    "starRating": 5.1,
+    "imageUrl": "assets/images/tookit.png"
+  },
+  {
+    "productId": 8,
+    "productName": "Radial Broadcaster",
+    "productCode": "XTC-4213",
+    "releaseDate": "5/13/2020",
+    "description": "Basic level transmitter. 40m radius",
+    "price": 795.22,
+    "starRating": 3.1,
+    "imageUrl": "assets/images/broadcast.png"
+  },
+  {
+    "productId": 10,
+    "productName": "Remote unit",
+    "productCode": "VGP-0030",
+    "releaseDate": "8/15/2018",
+    "description": "Dual analog controller.This may look like an ordanary controller for some dumb video game, but you'll need this for your Ro-Buddy!",
+    "price": 49.99,
+    "starRating": 4.6,
+    "imageUrl": "assets/images/video game controller.png"
+  },
+  {
+    "productId": 19,
+    "productName": "Ro-Buddy",
+    "productCode": "T9X-9000",
+    "releaseDate": "9/1/2020",
+    "description": "Robot Buddy comes with: Instructions, upgrade kit. Nuclear Reactor sold separately",
+    "price": 299.99,
+    "starRating": 5.0,
+    "imageUrl": "assets/images/robot.png"
+  },
+  {
+    "productId": 41,
+    "productName": "Nuclear Reactor upgrade",
+    "productCode": "NCR-0001",
+    "releaseDate": "9/1/2020",
+    "description": "Nuclear Reactor upgrade Compatibility : T9X-9000, T9X-800, T9X-9002",
+    "price": 199.99,
+    "starRating": 4.8,
+    "imageUrl": "assets/images/nuclear reactor.png"
+  },
+  {
+    "productId": 77,
+    "productName": "Chem suit",
+    "productCode": "Cs",
+    "releaseDate": "7/13/2021",
+    "description": "Chem suit to protect you while your out in the wasteland",
+    "price": 34.19,
+    "starRating": 3.2,
+    "imageUrl": "assets/images/chem.png"
+  },
+  {
+    "productId": 999,
+    "productName": "Guard Bot",
+    "productCode": "GB-001",
+    "releaseDate": "9/12/2020",
+    "description": "Perimeter master programming. Enjoy privacy and safety.",
+    "price": 1299.99,
+    "starRating": 5.0,
+    "imageUrl": "assets/images/Guard Bot.png"
+  }
+  
+
+]
+
+
+
+
+
+

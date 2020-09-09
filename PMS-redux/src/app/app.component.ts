@@ -1,10 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  selector: 'pm-root',
+  templateUrl: './navbar/navbar.component.html'
+   
 })
 export class AppComponent {
-  title = 'PMS-redux';
+  pageTitle = 'P.M.S';
 }
