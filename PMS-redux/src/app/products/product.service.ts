@@ -22,10 +22,11 @@ export class ProductService {
   }
 
   getProduct(id: number): Observable<IProduct | undefined> {
-    return this.getProducts()
-      .pipe(
-        map((products: IProduct[]) => products.find(p => p.product_id === id))
-      );
+    return this.http.get<IProduct>(this.productUrl + `/${id}`)
+    // getProducts()
+      // .pipe(
+      //   map((products: IProduct[]) => products.find(p => p.product_id === id))
+      // );
   }
 
   private handleError(err: HttpErrorResponse): Observable<never> {

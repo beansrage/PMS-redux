@@ -1,29 +1,29 @@
-This application mimics a Product Management system.
-    Features:
-        - Rating system
-        - Navagation bar
-        - Displays an array of diffrent products, along with their description, rating, price, product number and availability. 
-        - Search/filter function 
-        - Product details // IN PROGRESS
+PMS-redux
+PMS Product management systems
 
-        Angular: 
-            - Angular Routing
-            - Route guards
-            - Hard coded api // product list
-            - Componenets
-            - Services 
-            - Custom pipes
+This application mimics a Product Management system. Features: - Rating system - Navagation bar - Displays an array of diffrent products, along with their description, rating, price, product number and availability. - Search/filter function - Product details
 
-        Bootstrap:
-            - Twitter bootstrap
-        
-        /////////////////////
+Angular: 
+    - Angular Routing
+    - Route guards
+    - Hard coded api // product list
+    - Componenets
+    - Services 
+    - Custom pipes
 
-        Stretch goals:
-            - Login component
-            - Product editing/adding
-            - Forms
+Bootstrap:
+    - Twitter bootstrap
 
+/////////////////////
 
+Stretch goals:
+    - Login component
+    - Product editing/adding
+    - Forms
     
+Backened:
+    - Spring-boot
+    - Java
+
+Personalized icons 
     
